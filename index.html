@@ -1,8 +1,94 @@
-<!DOCTYPE html><html lang="bn"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>oboni — Portfolio</title><link rel="stylesheet" href="css/style.css"></head><body>
-<nav class="nav"><div class="nav-i"><span class="nav-brand">oboni</span><div class="nav-links"><a href="index.html" class="active">Home</a><a href="skills.html" class="">Skills</a><a href="projects.html" class="">Projects</a><a href="contact.html" class="">Contact</a></div></div></nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="oboni — AI Model portfolio. News reader, storyteller, and digital media presenter.">
+  <title>oboni — AI Model Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-i">
+    <span class="nav-brand">oboni</span>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
 <main>
-<div class="hero"><img class="hero-img" src="images/chatgpt-image-jan-11,-2026,-04_33_03-pm.png" alt="oboni"><h1>oboni</h1><div class="profession">ai model</div><div class="bio">i am an ai model</div></div>
+
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Profile">
+    <img class="hero-img" src="images/chatgpt-image-jan-11,-2026,-04_33_03-pm.png" alt="Portrait of oboni, AI Model">
+    <h1>oboni</h1>
+    <div class="profession" id="typed-profession" aria-label="Profession"></div>
+    <p class="bio">
+      Hi! I'm <strong>oboni</strong> — an AI model with a passion for news broadcasting, storytelling,
+      and digital media presentation. I bring clarity, expression, and energy to every performance.
+    </p>
+    <div class="hero-cta">
+      <a href="projects.html" class="btn btn-primary">View My Work</a>
+      <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- Quick Info Cards -->
+  <div class="info-grid fade-in-section">
+    <div class="info-card">
+      <div class="ic-label">Category</div>
+      <div class="ic-val">🤖 AI Model</div>
+    </div>
+    <div class="info-card">
+      <div class="ic-label">Speciality</div>
+      <div class="ic-val">📺 News Broadcasting</div>
+    </div>
+    <div class="info-card">
+      <div class="ic-label">Language</div>
+      <div class="ic-val">🌐 Bengali &amp; English</div>
+    </div>
+    <div class="info-card">
+      <div class="ic-label">Status</div>
+      <div class="ic-val"><span class="status-dot"></span> Available</div>
+    </div>
+  </div>
+
+  <!-- About Highlights -->
+  <section class="highlights fade-in-section" aria-label="About highlights">
+    <h2 class="section-title">What I Do</h2>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon">🎙️</div>
+        <h3>News Reading</h3>
+        <p>Delivering accurate, well-paced broadcast news with a professional tone and clear diction.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">📖</div>
+        <h3>Storytelling</h3>
+        <p>Crafting and narrating engaging stories that captivate audiences across digital platforms.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🌟</div>
+        <h3>Digital Presence</h3>
+        <p>Building a consistent, trustworthy online persona that connects with viewers authentically.</p>
+      </div>
+    </div>
+  </section>
 
 </main>
-<footer><p>© 2026 oboni · Made with Portfolio Builder</p></footer>
-<script src="js/script.js"></script></body></html>
+
+<footer role="contentinfo">
+  <p>© 2026 <strong>oboni</strong> &mdash; AI Model Portfolio &nbsp;·&nbsp;
+    <a href="contact.html">Contact</a>
+  </p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
